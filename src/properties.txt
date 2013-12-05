@@ -1,0 +1,11 @@
+define=Commands.Define
+push=Commands.Push
+pop=Commands.Pop
+add=Commands.Add
+sub=Commands.Sub
+mult=Commands.Mult
+div=Commands.Div
+sqrt=Commands.Sqrt
+exp=Commands.Exp
+log=Commands.Log
+print=Commands.Print

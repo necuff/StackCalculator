@@ -1,0 +1,58 @@
+#========================
+#X1 = (-b + sqrt(D)) / 2a
+#X2 = (-b - sqrt(D)) / 2a
+#D = b*b - 4ac
+#a = 1, b = 5, c = 4
+#========================
+Define a 1
+Define b -4
+Define c 3
+#Расчет Х1
+#2a
+Push a
+Push 2
+Mult
+#Дескриминант
+Push 4
+Push a
+Push c
+Mult
+Mult
+Push b
+Push b
+Mult
+Sub
+#sqrt(D)
+Sqrt
+Push -1
+Push b
+Mult
+Add
+Div
+Print X1 =
+Print
+#======================
+#Расчет Х2
+#2a
+Push a
+Push 2
+Mult
+#Дескриминант
+Push 4
+Push a
+Push c
+Mult
+Mult
+Push b
+Push b
+Mult
+Sub
+#sqrt(D)
+Sqrt
+Push -1
+Push b
+Mult
+Sub
+Div
+Print X2 =
+Print
